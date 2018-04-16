@@ -1,35 +1,3 @@
-
-"""
-VBA Function:
-
-Function find_touching(states_arr As String, adjacent_arr As String)
-    Dim num_occur As Integer
-    Dim first_occur As Integer
-    Dim next_state As Integer
-    Dim i As Integer
-    Dim j As Integer
-    Dim flag As Boolean
-    next_state = 0
-    
-    For i = 0 To UBound(states_arr) Step 1
-        MsgBox state_arr(next_state)
-        used_state(i) = states_arr(next_state)
-        flag = False
-        
-        For j = 0 To UBound(states_arr) Step 1
-            If (flag = False & used_state(0) = states_arr(j)) Then
-                first_occur = j
-                num_occur = num_occur + 1
-                flag = True
-            ElseIf (flag = True & used_state(0) = states_arr(j)) Then
-                num_occur = num_occur + 1
-            Else
-                break
-            next_state = first_occur + num_occur + 1
-            
-End Function
-"""
-
 # list of states
 state_arr = ["A", "A", "B", "B", "B", "C", "C", "C", "D", "D"]
 # list of states touching those states
