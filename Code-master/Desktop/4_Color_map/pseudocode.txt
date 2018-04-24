@@ -1,0 +1,41 @@
+"""
+-Pick a state(comparison_state) touching the state(touching_state) you want: IN
+-Check that comparison_state does not have a color 
+-For every state touching comparison state, check if there's a color not used by that state, go through every state touching 
+	the comparison state and do this.
+-If there's a color that isn't used by any of these, give comparison state that color. 
+"""
+
+Boolean array?
+State -> Ch=1
+Bool_arr[1] = False
+State -> Ch=3
+Bool_arr[3] = False
+
+get_touching_state_colors(comparison_state):
+	count = count number of states touching comparison_state
+	new array touching_states[count]
+	//get an array of all states touching comparison state
+	For every col_1 == Comparison_state:
+		touching_state[count] = col_2 state.color
+	return touching_state;
+
+	
+get_color(touching_state):	
+	For state_color in touching_state:
+		is_used[4]
+		if state_color == 0;
+			is_used[0] = True; 
+		else if state_color == 1;
+			is_used[1] = True; 
+		else if state_color == 2;
+			is_used[2] = True; 
+		else if state_color == 3;
+			is_used[3] = True; 	
+	For color in is_used:		
+		if(False):
+			return color
+
+				
+			
+			
